@@ -18,9 +18,6 @@ class Hortfruit(Base):
     nome = Column(String(120))
     codigo = Column(String(20))
 
-def x():
-    x = session.query(Hortfruit).all()
-    print(x)
-x()
+
 
 
